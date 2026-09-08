@@ -1,8 +1,15 @@
 {
   "seed": 42,
+  "quota": {
+    "speed_limit_wrong": 20,
+    "oneway_reversed": 10,
+    "road_missing": 8,
+    "road_phantom": 7,
+    "closure_unmapped": 5
+  },
   "errors": [
     {
-      "error_id": "speed_001",
+      "error_id": "speed_limit_wrong_001",
       "error_type": "speed_limit_wrong",
       "osm_id": 54286704,
       "name": "Fifth Avenue",
@@ -15,7 +22,7 @@
       }
     },
     {
-      "error_id": "speed_002",
+      "error_id": "speed_limit_wrong_002",
       "error_type": "speed_limit_wrong",
       "osm_id": 11736608,
       "name": "Kamin Street",
@@ -28,7 +35,7 @@
       }
     },
     {
-      "error_id": "speed_003",
+      "error_id": "speed_limit_wrong_003",
       "error_type": "speed_limit_wrong",
       "osm_id": 317788871,
       "name": "Craft Avenue",
@@ -41,7 +48,7 @@
       }
     },
     {
-      "error_id": "speed_004",
+      "error_id": "speed_limit_wrong_004",
       "error_type": "speed_limit_wrong",
       "osm_id": 302193665,
       "name": "Centre Avenue",
@@ -54,7 +61,7 @@
       }
     },
     {
-      "error_id": "speed_005",
+      "error_id": "speed_limit_wrong_005",
       "error_type": "speed_limit_wrong",
       "osm_id": 294621022,
       "name": "Wilkins Avenue",
@@ -67,7 +74,7 @@
       }
     },
     {
-      "error_id": "speed_006",
+      "error_id": "speed_limit_wrong_006",
       "error_type": "speed_limit_wrong",
       "osm_id": 156323704,
       "name": "Hot Metal Street",
@@ -80,7 +87,7 @@
       }
     },
     {
-      "error_id": "speed_007",
+      "error_id": "speed_limit_wrong_007",
       "error_type": "speed_limit_wrong",
       "osm_id": 42208225,
       "name": "Parkview Avenue",
@@ -93,7 +100,7 @@
       }
     },
     {
-      "error_id": "speed_008",
+      "error_id": "speed_limit_wrong_008",
       "error_type": "speed_limit_wrong",
       "osm_id": 26321030,
       "name": "Meyran Avenue",
@@ -106,7 +113,7 @@
       }
     },
     {
-      "error_id": "speed_009",
+      "error_id": "speed_limit_wrong_009",
       "error_type": "speed_limit_wrong",
       "osm_id": 1053091720,
       "name": "Beacon Street",
@@ -119,7 +126,7 @@
       }
     },
     {
-      "error_id": "speed_010",
+      "error_id": "speed_limit_wrong_010",
       "error_type": "speed_limit_wrong",
       "osm_id": 11805275,
       "name": "South Neville Street",
@@ -132,7 +139,7 @@
       }
     },
     {
-      "error_id": "speed_011",
+      "error_id": "speed_limit_wrong_011",
       "error_type": "speed_limit_wrong",
       "osm_id": 11754104,
       "name": "Melvin Street",
@@ -145,7 +152,7 @@
       }
     },
     {
-      "error_id": "speed_012",
+      "error_id": "speed_limit_wrong_012",
       "error_type": "speed_limit_wrong",
       "osm_id": 30677725,
       "name": "Bigelow Boulevard",
@@ -158,7 +165,7 @@
       }
     },
     {
-      "error_id": "speed_013",
+      "error_id": "speed_limit_wrong_013",
       "error_type": "speed_limit_wrong",
       "osm_id": 294294287,
       "name": "Boulevard of the Allies",
@@ -171,7 +178,7 @@
       }
     },
     {
-      "error_id": "speed_014",
+      "error_id": "speed_limit_wrong_014",
       "error_type": "speed_limit_wrong",
       "osm_id": 294921206,
       "name": "South Dithridge Street",
@@ -184,7 +191,7 @@
       }
     },
     {
-      "error_id": "speed_015",
+      "error_id": "speed_limit_wrong_015",
       "error_type": "speed_limit_wrong",
       "osm_id": 11743885,
       "name": "Bayard Street",
@@ -197,7 +204,7 @@
       }
     },
     {
-      "error_id": "speed_016",
+      "error_id": "speed_limit_wrong_016",
       "error_type": "speed_limit_wrong",
       "osm_id": 282196494,
       "name": "Panther Hollow Road",
@@ -210,7 +217,7 @@
       }
     },
     {
-      "error_id": "speed_017",
+      "error_id": "speed_limit_wrong_017",
       "error_type": "speed_limit_wrong",
       "osm_id": 1051855122,
       "name": "Bigelow Boulevard",
@@ -223,7 +230,7 @@
       }
     },
     {
-      "error_id": "speed_018",
+      "error_id": "speed_limit_wrong_018",
       "error_type": "speed_limit_wrong",
       "osm_id": 294294324,
       "name": "Parkman Avenue",
@@ -236,7 +243,7 @@
       }
     },
     {
-      "error_id": "speed_019",
+      "error_id": "speed_limit_wrong_019",
       "error_type": "speed_limit_wrong",
       "osm_id": 1345264770,
       "name": "Forbes Avenue",
@@ -249,7 +256,7 @@
       }
     },
     {
-      "error_id": "speed_020",
+      "error_id": "speed_limit_wrong_020",
       "error_type": "speed_limit_wrong",
       "osm_id": 319660251,
       "name": "Boulevard of the Allies",
@@ -259,6 +266,403 @@
       },
       "corrupted": {
         "maxspeed": "25 mph"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_001",
+      "error_type": "oneway_reversed",
+      "osm_id": 320660671,
+      "name": "Aurelia Street",
+      "highway": "residential",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_002",
+      "error_type": "oneway_reversed",
+      "osm_id": 27630556,
+      "name": "Schenley Drive",
+      "highway": "secondary",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_003",
+      "error_type": "oneway_reversed",
+      "osm_id": 1126948797,
+      "name": "South Euclid Avenue",
+      "highway": "primary",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_004",
+      "error_type": "oneway_reversed",
+      "osm_id": 550944115,
+      "name": "Bates Street",
+      "highway": "primary",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_005",
+      "error_type": "oneway_reversed",
+      "osm_id": 550944089,
+      "name": "Bates Street",
+      "highway": "primary",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_006",
+      "error_type": "oneway_reversed",
+      "osm_id": 1427176795,
+      "name": "Aloe Street",
+      "highway": "residential",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_007",
+      "error_type": "oneway_reversed",
+      "osm_id": 1317865107,
+      "name": "Coltart Avenue",
+      "highway": "residential",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_008",
+      "error_type": "oneway_reversed",
+      "osm_id": 123485939,
+      "name": "Copeland Street",
+      "highway": "residential",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_009",
+      "error_type": "oneway_reversed",
+      "osm_id": 359652165,
+      "name": "Bigelow Boulevard",
+      "highway": "primary",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "oneway_reversed_010",
+      "error_type": "oneway_reversed",
+      "osm_id": 11839510,
+      "name": "North Bouquet Street",
+      "highway": "residential",
+      "truth": {
+        "oneway": "yes"
+      },
+      "corrupted": {
+        "oneway": "-1 (reversed)"
+      }
+    },
+    {
+      "error_id": "road_missing_001",
+      "error_type": "road_missing",
+      "osm_id": 11742522,
+      "name": "Malvern Avenue",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_002",
+      "error_type": "road_missing",
+      "osm_id": 11724275,
+      "name": "North Woodland Road",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_003",
+      "error_type": "road_missing",
+      "osm_id": 109349950,
+      "name": "Bryn Mawr Road",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_004",
+      "error_type": "road_missing",
+      "osm_id": 271701589,
+      "name": "Panther Hollow Road",
+      "highway": "secondary",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_005",
+      "error_type": "road_missing",
+      "osm_id": 11756629,
+      "name": "South Mathilda Street",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_006",
+      "error_type": "road_missing",
+      "osm_id": 132299197,
+      "name": "Elmer Street",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_007",
+      "error_type": "road_missing",
+      "osm_id": 11821249,
+      "name": "Roup Avenue",
+      "highway": "residential",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_missing_008",
+      "error_type": "road_missing",
+      "osm_id": 361815231,
+      "name": "Beechwood Boulevard",
+      "highway": "tertiary",
+      "truth": {
+        "exists": true
+      },
+      "corrupted": {
+        "exists": false
+      }
+    },
+    {
+      "error_id": "road_phantom_001",
+      "error_type": "road_phantom",
+      "osm_id": 268844650,
+      "name": "Wightman Street",
+      "highway": "residential",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_002",
+      "error_type": "road_phantom",
+      "osm_id": 1022073972,
+      "name": "Fair Oaks Street",
+      "highway": "residential",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_003",
+      "error_type": "road_phantom",
+      "osm_id": 335842212,
+      "name": "South Millvale Avenue",
+      "highway": "tertiary",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_004",
+      "error_type": "road_phantom",
+      "osm_id": 11955884,
+      "name": "North Neville Street",
+      "highway": "tertiary",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_005",
+      "error_type": "road_phantom",
+      "osm_id": 348722697,
+      "name": "Hemingway Street",
+      "highway": "residential",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_006",
+      "error_type": "road_phantom",
+      "osm_id": 322362021,
+      "name": "South Negley Avenue",
+      "highway": "tertiary",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "road_phantom_007",
+      "error_type": "road_phantom",
+      "osm_id": 39472320,
+      "name": "Beechwood Boulevard",
+      "highway": "primary",
+      "truth": {
+        "exists": false,
+        "note": "demolished in reality"
+      },
+      "corrupted": {
+        "exists": true
+      }
+    },
+    {
+      "error_id": "closure_unmapped_001",
+      "error_type": "closure_unmapped",
+      "osm_id": 266076694,
+      "name": "Sunapee Way",
+      "highway": "residential",
+      "truth": {
+        "status": "closed"
+      },
+      "corrupted": {
+        "status": "open (unaware)"
+      }
+    },
+    {
+      "error_id": "closure_unmapped_002",
+      "error_type": "closure_unmapped",
+      "osm_id": 11747326,
+      "name": "Dahlem Place",
+      "highway": "residential",
+      "truth": {
+        "status": "closed"
+      },
+      "corrupted": {
+        "status": "open (unaware)"
+      }
+    },
+    {
+      "error_id": "closure_unmapped_003",
+      "error_type": "closure_unmapped",
+      "osm_id": 11960612,
+      "name": "Larimer Avenue",
+      "highway": "tertiary",
+      "truth": {
+        "status": "closed"
+      },
+      "corrupted": {
+        "status": "open (unaware)"
+      }
+    },
+    {
+      "error_id": "closure_unmapped_004",
+      "error_type": "closure_unmapped",
+      "osm_id": 1427194479,
+      "name": "Orpwood Street",
+      "highway": "residential",
+      "truth": {
+        "status": "closed"
+      },
+      "corrupted": {
+        "status": "open (unaware)"
+      }
+    },
+    {
+      "error_id": "closure_unmapped_005",
+      "error_type": "closure_unmapped",
+      "osm_id": 220350114,
+      "name": "Bellefonte Street",
+      "highway": "residential",
+      "truth": {
+        "status": "closed"
+      },
+      "corrupted": {
+        "status": "open (unaware)"
       }
     }
   ]
