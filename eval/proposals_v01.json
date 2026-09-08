@@ -1,0 +1,329 @@
+[
+  {
+    "osm_id": 11808410,
+    "name": "West Lyndhurst Drive",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 12.5y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11816110,
+    "name": "Woodland Road",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 13.6y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11854496,
+    "name": "Maple Heights Court",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 13.6y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 266076706,
+    "name": "Maple Heights Drive",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 12.5y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11732844,
+    "name": "Maple Heights Drive",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 12.5y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11828781,
+    "name": "Darlington Court",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.58,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 6.3y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "1 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 11836867,
+    "name": "Mackey Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 13.6y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944088,
+    "name": "Bates Street",
+    "change_type": "fix_oneway",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944092,
+    "name": "Hodge Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944091,
+    "name": "Hodge Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11950623,
+    "name": "Bates Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "2 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944103,
+    "name": "Second Avenue",
+    "change_type": "fix_maxspeed",
+    "proposed_value": "unknown",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "2 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944113,
+    "name": "Hodge Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944087,
+    "name": "Bates Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "2 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 329993304,
+    "name": "Hot Metal Street",
+    "change_type": "fix_maxspeed",
+    "proposed_value": "unknown",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "10 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 11654335,
+    "name": "Gold Way",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 10.0y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11948308,
+    "name": "Fitzgerald Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 11.3y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11806720,
+    "name": "Enfield Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 13.6y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11824436,
+    "name": "Hemingway Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 11.3y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 335842214,
+    "name": "Fitzgerald Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 11.3y ago"
+      }
+    ]
+  },
+  {
+    "osm_id": 11721077,
+    "name": "Rennig Street",
+    "change_type": "mark_closed",
+    "proposed_value": "unknown",
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 11.7y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "1 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 464845821,
+    "name": "Spirit Street",
+    "change_type": "fix_maxspeed",
+    "proposed_value": "unknown",
+    "confidence": 0.74,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.3y ago"
+      },
+      {
+        "source": "osmose",
+        "detail": "8 QA issue(s) nearby"
+      }
+    ]
+  },
+  {
+    "osm_id": 550944089,
+    "name": "Bates Street",
+    "change_type": "fix_oneway",
+    "proposed_value": "unknown",
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "source": "staleness",
+        "detail": "last edited 8.7y ago"
+      }
+    ]
+  }
+]
