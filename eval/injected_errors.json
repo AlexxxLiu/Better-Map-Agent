@@ -1,0 +1,265 @@
+{
+  "seed": 42,
+  "errors": [
+    {
+      "error_id": "speed_001",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 54286704,
+      "name": "Fifth Avenue",
+      "highway": "trunk",
+      "truth": {
+        "maxspeed": "35 mph"
+      },
+      "corrupted": {
+        "maxspeed": "25 mph"
+      }
+    },
+    {
+      "error_id": "speed_002",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 11736608,
+      "name": "Kamin Street",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_003",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 317788871,
+      "name": "Craft Avenue",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_004",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 302193665,
+      "name": "Centre Avenue",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_005",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 294621022,
+      "name": "Wilkins Avenue",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_006",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 156323704,
+      "name": "Hot Metal Street",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_007",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 42208225,
+      "name": "Parkview Avenue",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_008",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 26321030,
+      "name": "Meyran Avenue",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_009",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 1053091720,
+      "name": "Beacon Street",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_010",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 11805275,
+      "name": "South Neville Street",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_011",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 11754104,
+      "name": "Melvin Street",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_012",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 30677725,
+      "name": "Bigelow Boulevard",
+      "highway": "primary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_013",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 294294287,
+      "name": "Boulevard of the Allies",
+      "highway": "primary",
+      "truth": {
+        "maxspeed": "35 mph"
+      },
+      "corrupted": {
+        "maxspeed": "45 mph"
+      }
+    },
+    {
+      "error_id": "speed_014",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 294921206,
+      "name": "South Dithridge Street",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_015",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 11743885,
+      "name": "Bayard Street",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_016",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 282196494,
+      "name": "Panther Hollow Road",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "35 mph"
+      },
+      "corrupted": {
+        "maxspeed": "25 mph"
+      }
+    },
+    {
+      "error_id": "speed_017",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 1051855122,
+      "name": "Bigelow Boulevard",
+      "highway": "primary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_018",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 294294324,
+      "name": "Parkman Avenue",
+      "highway": "residential",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "35 mph"
+      }
+    },
+    {
+      "error_id": "speed_019",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 1345264770,
+      "name": "Forbes Avenue",
+      "highway": "primary",
+      "truth": {
+        "maxspeed": "25 mph"
+      },
+      "corrupted": {
+        "maxspeed": "30 mph"
+      }
+    },
+    {
+      "error_id": "speed_020",
+      "error_type": "speed_limit_wrong",
+      "osm_id": 319660251,
+      "name": "Boulevard of the Allies",
+      "highway": "secondary",
+      "truth": {
+        "maxspeed": "35 mph"
+      },
+      "corrupted": {
+        "maxspeed": "25 mph"
+      }
+    }
+  ]
+}
