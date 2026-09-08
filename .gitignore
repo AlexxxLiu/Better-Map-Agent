@@ -1,0 +1,5 @@
+.env
+data/
+*.pbf
+__pycache__/
+*.pyc
